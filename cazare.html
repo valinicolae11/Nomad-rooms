@@ -1,0 +1,149 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./military.png">
+    <link rel="stylesheet" href="./nomad.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href="http://fonts.cdnfonts.com/css/existence-light" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nomad</title>
+</head>
+<body>
+    
+    <header class="header">
+        <a class="navItems" id="nav" href="./index.html"><span class="material-symbols-outlined">
+            home
+            </span>Home</a>
+        <a class="navItems" id="nav" href="./cazare.html"><span class="material-symbols-outlined">
+            settings_accessibility
+            </span>Cazare</a>
+        <a href="./index.html"><img src="./logo.png" alt="nomad-logo" class="logo"></a>
+        <a class="navItems" id="nav" href="./about.html"><span class="material-symbols-outlined">
+            info
+            </span>Despre noi</a>
+        <a class="navItems" id="nav" href="./contact.html"><span class="material-symbols-outlined">
+            contact_page
+            </span>Contact</a>
+          
+          <!--NAVBAR WITH BURGER ICON FOR MOBILE-->
+          <div class="container" id="btn" onclick="menuButton()" >
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          
+          <div id="myNav" class="overlay">
+            <div class="overlay-content">
+              <a href="./index.html"><span class="material-symbols-outlined">
+                home
+                </span>HOME</a>
+              <a href="./cazare.html"><span class="material-symbols-outlined">
+                settings_accessibility
+                </span>CAZARE</a>
+              <a href="./about.html"><span class="material-symbols-outlined">
+                info
+                </span>DESPRE NOI</a>
+              <a href="./contact.html"><span class="material-symbols-outlined">
+                contact_page
+                </span>CONTACT</a>
+            </div>
+          </div>
+    </header>
+
+    <div class="container-picture-cazare">
+       <div class="container-text"data-aos="fade-left"
+       data-aos-anchor="#example-anchor"
+       data-aos-offset="500"
+       data-aos-duration="500">
+            <h1 id="welcome">SERVICII CAZARE</h1>
+       </div>
+    </div>
+
+    <div class="about-cazare-container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="left">
+            <h1>Detalii cazare</h1>
+            <p>Vă oferim la dispozi<span style="font-weight: 100; font-family: 'Courier New', Courier, monospace;">ț</span>ie căsu<span style="font-weight: 100; font-family: 'Courier New', Courier, monospace;">ț</span>e,
+                corturi și o curte dotată cu foișor ce include frigider, aragaz și chiuvetă cu veselă 
+                potrivite pentru prepararea micului dejun. De asemenea toaletele și dușurile sunt la comun,
+                în grupul sanitar din curte.</p>
+            <p>Spatiile de cazare de la Nomad sunt disponibile pe tot parcursul perioadei dintre 1 mai si 30 septembrie.</p>
+            <p>Condițiile de cazare sunt tip camping!</p>
+        </div>
+        <div class="right">
+            <img src="./detalii-cazare-casuta.jpg" alt="" >
+            <p><span class="material-symbols-outlined" id="money-icon">
+                payments
+                </span>Pret cazare - 175 lei/noapte</p>
+        </div>
+    </div>
+    <div class="orizontal-line"></div>
+
+    <div class="facilities-container">
+        <h1>Facilită<span style="font-weight:100 ; font-family: 'Courier New', Courier, monospace;">ț</span>i</h1>
+        <div class="icons-grid-parent">
+            <div class="icon-text one" data-aos="fade-down-right"><p><span class="material-symbols-outlined icon">
+                sound_detection_dog_barking
+                </span>Acces animale de companie</p></div>
+            <div class="icon-text two" data-aos="fade-up-right"><p><span class="material-symbols-outlined icon">
+                outdoor_garden
+                </span>Gradina/Curte</p></div>
+            <div class="icon-text three" data-aos="fade-down"><p><span class="material-symbols-outlined icon">
+                cooking
+                </span>Acces la bucatarie</p></div>
+            <div class="icon-text four" data-aos="fade-up"><p><span class="material-symbols-outlined icon">
+                dining
+                </span>Vesela si tacamuri</p></div>
+            <div class="icon-text five" data-aos="fade-down-left"><p><span class="material-symbols-outlined icon">
+                kitchen
+                </span>Frigider in unitate</p></div>
+            <div class="icon-text six" data-aos="fade-up-left"><p><span class="material-symbols-outlined icon">
+                local_parking
+                </span>Parcare</p></div>
+        </div>
+    </div>
+
+    <div class="pictures-container">
+        <div class="pic1"><img src="./casuta-interior-grid.jpg" alt="" id="img1"></div>
+        <div class="pic2"><img src="./casute-afara.jpg" alt=""></div>
+        <div class="pic3"><img src="./cort-afara.jpg" alt="" ></div>
+        <div class="pic4"><img src="./cort-interior.jpg" alt="" ></div>
+        <div class="pic5"><img src="./baie.jpg" alt="" ></div>
+        <div class="pic6"><img src="./casuta-afara.jpg" alt=""></div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="facebook"><a href="https://www.facebook.com/pages/Nomad/102760758743789/" class="fa fa-facebook"></a></div>
+        <div class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></div>
+        <div class="booking"><a class="fa fa-booking" href="https://www.booking.com/hotel/ro/nomad.ro.html">B</a></div>
+    </footer>
+
+
+
+<script>
+
+function menuButton() {
+    const ICON_BUTTON = document.getElementById('btn');
+    ICON_BUTTON.classList.toggle("change");
+
+    if(ICON_BUTTON.classList.contains("change")){
+        ICON_BUTTON.style.zIndex = "2";
+        ICON_BUTTON.style.position = "fixed";
+        const OVERLAY = document.getElementById("myNav");
+        OVERLAY.style.width = "100%";
+    }
+    else
+    {
+        const OVERLAY = document.getElementById("myNav");
+        OVERLAY.style.width = "0%"
+        ICON_BUTTON.style.position = "initial";
+    } 
+}
+
+    
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
