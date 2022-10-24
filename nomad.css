@@ -16,7 +16,7 @@ body{
     color:#058a00 ;
     text-decoration: none;
     text-transform:uppercase;
-    font-family: 'Existence Light', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     transition: 0.2s;
     position: relative;
 }
@@ -73,7 +73,7 @@ body{
     padding: 10px;
     color: #058a00;
     text-decoration: none;
-    font-family: 'Existence Light', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
   }
 
 .container-picture{
@@ -89,7 +89,7 @@ body{
     text-align: center;
     position: relative;
     top: 35%;
-    font-family: 'Existence Light', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     color: #ffffff;
     font-size:30px;
     
@@ -98,7 +98,7 @@ body{
     padding: 20px;
     text-align: center;
     font-size: 25px;
-    font-family: 'Existence Light', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .threeInfoContainer{
@@ -132,7 +132,7 @@ body{
 }
 .text-and-btn > h2{
     color: #058a00;
-    font-family: 'Existence Light', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .text-and-btn > a {
@@ -142,7 +142,7 @@ body{
     padding: 1em 5em 1em 5em;
     border-radius: 50px;
     font-size: smaller;
-    font-family: 'Existence Light', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     transition: .4s;
 }
 .text-and-btn > a:hover{
@@ -153,13 +153,13 @@ body{
     justify-content: space-around;
     background-color: #567d4d;
     color: #ffffff;
-    font-family: 'Existence Light', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
     margin-bottom: 6em;
 }
 .countdown-container{
    display: flex;
    justify-content: space-evenly;
-   font-family: 'Existence Light', sans-serif;
+   font-family: 'Rajdhani', sans-serif;
    padding-bottom: 6em;
    align-items: center;
 }
@@ -227,7 +227,7 @@ body{
 }
 
 .left{
-  font-family: 'Existence Light', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
   padding: 30px 40px 30px 40px;
 }
 .left > h1{
@@ -249,7 +249,7 @@ body{
 }
 .right > p{
   text-align: center;
-  font-family: 'Existence Light', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 #money-icon{
   padding: 6px;
@@ -267,7 +267,7 @@ body{
 }
 .facilities-container > h1{
   text-align: center;
-  font-family:'Existence Light', sans-serif ;
+  font-family:'Rajdhani', sans-serif ;
 }
 .icons-grid-parent{
   padding: 4em;
@@ -276,7 +276,7 @@ body{
   align-content: center;
 }
 .icon-text{
-  font-family: 'Existence Light', sans-serif;
+  font-family: 'Rajdhani', sans-serif;
 }
 .one{
   grid-column-start: 1;
@@ -370,6 +370,44 @@ body{
   grid-area: 1 / 1 / 1 / 2;
 }
 
+.review-big-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Rajdhani', sans-serif;
+}
+.review-small-container{
+  display:grid ;
+  gap: 2em;
+  padding: 2em;
+}
+.review1, .review2, .review3, .review4{
+  
+  padding: 2em;
+  box-shadow: 0px 0px 13px 10px rgba(0,0,0,0.15);
+}
+.name-rating{
+  display: flex;
+  
+}
+.name-rating > h3{
+  flex: 2;
+}
+.review1{
+  grid-area: 1 / 1 / 1 / 2;
+}
+.review2{
+  grid-area: 1 / 2 / 1 / 3;
+}
+.review3{
+  grid-area: 2 / 1 / 2 / 2;
+}
+.review4{
+  grid-area: 2 / 2 / 2 / 3;
+}
+
+
+
 @media screen and (max-width:850px) {
   .logo{
       width:50vw;
@@ -439,7 +477,14 @@ body{
     .about1, .about2, .about3, .about4{
       padding: 10px 30px 10px 30px;
     }
-   
+    .review-small-container{
+      display: flex;
+      flex-direction: column;
+    }
+    .review-big-container> h1{
+      padding: 0.5em;
+      text-align: center;
+    }
   }
 @media screen and (min-width:850px){
   .container{
