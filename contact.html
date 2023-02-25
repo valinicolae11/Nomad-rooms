@@ -84,19 +84,25 @@
             <img src="./military.png" alt="" id="imgContact">
       </div>
       <div class="formular">
-          <form action="https://formsubmit.co/valinicolae2002@gmail.com" method="POST">
+          <form action="https://formsubmit.co/cde07a07b04d56fb21580f9323491a37" method="POST">
             <h2 id="h2Form">Formular de contact</h2>
             <div class="inputs">
+              <!--Honeypot-->
+              <input type="text" name="_honey" style="display: none;">
+              <!--Disable captha-->
+              <input type="hidden" name="_captha" value="false">
+              <input type="hidden" name="_next" value="succesForm.html">
+
               <label for="nume" id="numef">Nume</label> 
-              <input type="text" id="numef">
+              <input type="text" id="numef" name="Nume">
               <label for="prenume" id="prenume">Prenume</label>
-              <input type="text">
+              <input type="text" name="Prenume">
               <label for="telefon">Telefon</label>
-              <input type="text">
+              <input type="text" name="Telefon">
               <label for="email"id="email">Email</label>
-              <input type="email" id="emailInp">
+              <input type="email" id="emailInp" name="Email">
               <p style="margin:0;">Mesaj</p>
-              <textarea id="mesaj" name="Mesaj" cols="30" rows="10"></textarea>
+              <textarea id="mesaj" name="Mesaj" cols="30" rows="10" name="Mesaj"></textarea>
               <button type="submit" id="formButton">Trimite</button>
             </div>
             
