@@ -5,8 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./military.png">
     <link rel="stylesheet" href="./nomad.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link href="http://fonts.cdnfonts.com/css/existence-light" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet'>
@@ -15,6 +14,7 @@
 </head>
 
 <body>
+ 
     <header class="header">
         <a class="navItems" id="nav" href="./index.html"><span class="material-symbols-outlined">
             home
@@ -55,7 +55,7 @@
           </div>
     </header>    
 
-    <div class="container-picture-contact">
+    <div class="container-picture-contact"> <br>
         <div class="container-text"data-aos="fade-left"
         data-aos-anchor="#example-anchor"
         data-aos-offset="500"
@@ -63,8 +63,47 @@
              <h1 id="welcome">CONTACT</h1>
         </div>
      </div>
-     <h1>FORMULAR + ALTE DETALII</h1>
-
+     
+     <div class="parent-contact">
+      <div class="info">
+          <p><span class="material-symbols-outlined">
+            home
+            </span>Nomad SRL</p>
+          <p><span class="material-symbols-outlined">
+            info
+            </span>RO1234567</p>
+          <p><span class="material-symbols-outlined">
+            home_pin
+            </span>Strada Tudor Vladimirescu 24, Jud. Constanta </p>
+          <p><span class="material-symbols-outlined">
+            call
+            </span>0712345678</p>
+          <p><span class="material-symbols-outlined">
+            mail
+            </span>qwerty@gmail.com</p>
+            <img src="./military.png" alt="" id="imgContact">
+      </div>
+      <div class="formular">
+          <form action="https://formsubmit.co/valinicolae2002@gmail.com" method="POST">
+            <h2 id="h2Form">Formular de contact</h2>
+            <div class="inputs">
+              <label for="nume" id="numef">Nume</label> 
+              <input type="text" id="numef">
+              <label for="prenume" id="prenume">Prenume</label>
+              <input type="text">
+              <label for="telefon">Telefon</label>
+              <input type="text">
+              <label for="email"id="email">Email</label>
+              <input type="email" id="emailInp">
+              <p style="margin:0;">Mesaj</p>
+              <textarea id="mesaj" name="Mesaj" cols="30" rows="10"></textarea>
+              <button type="submit" id="formButton">Trimite</button>
+            </div>
+            
+          </form>
+      </div>
+     </div>
+     
     
 
          <iframe class="harta" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2881.9688189145713!2d28.570530115500986!3d43.752744279118026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40bb2da1e2db5847%3A0xa6f6c5cc1bf112b2!2sNomad!5e0!3m2!1sro!2sro!4v1666100291817!5m2!1sro!2sro"

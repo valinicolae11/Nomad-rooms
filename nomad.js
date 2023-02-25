@@ -1,3 +1,5 @@
+
+
 function menuButton() {
     const ICON_BUTTON = document.getElementById('btn');
     ICON_BUTTON.classList.toggle("change");
@@ -39,3 +41,4 @@ function setDigital() {
 
 }
 setInterval(setDigital, 1000);
+
